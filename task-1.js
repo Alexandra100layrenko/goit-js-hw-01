@@ -13,6 +13,7 @@ function makeTransaction (quantity, pricePerDroid){
             message = `You odered ${quantity} droids worth ${totalPrice} credits!`
             break;
     }
+    return makeTransaction;
 }
 
 console.log(makeTransaction(5, 3000));
